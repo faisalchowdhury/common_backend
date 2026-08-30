@@ -1,0 +1,23 @@
+node_modules
+.env
+/src/config/firebase-service-account.json
+/dist
+/logs
+
+# runtime logs
+/src/logger/logs/*
+!/src/logger/logs/.gitkeep
+
+# uploaded files
+/public/images/*
+!/public/images/.gitkeep
+/public/documents/*
+!/public/documents/.gitkeep
+/public/media/*
+!/public/media/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
